@@ -1,0 +1,28 @@
+class bicycle
+{
+int brake,speed,gears;
+int accelarating()
+{
+ speed = 1;
+ return speed;
+}
+int braking()
+{
+brake = 1;
+return brake;
+}
+int changegears()
+{
+gears =1;
+return gears;
+}
+public static void main(String args[])
+{
+bicycle b1 = new bicycle();
+bicycle b2 = new bicycle();
+bicycle b3 = new bicycle();
+System.out.println(" accelarating"+b1.accelarating());
+System.out.println(" braking"+b2.braking());
+System.out.println(" gear changing"+b3.changegears());
+}
+}
